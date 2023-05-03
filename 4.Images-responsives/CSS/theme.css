@@ -1,0 +1,30 @@
+/***GENERAL***/
+main {
+    margin:0;
+    padding:0;
+    max-width:100%;
+    background-image: url("../ressources/phare.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/***SECTION***/
+section {
+    display:flex;
+    justify-content:center;
+    max-width:70%;
+    margin:0 auto;
+}
+
+
+/***ARTICLES***/
+article {
+    background-color:rgba(255,255,255,0.5);
+    color:#333;
+    width:50%;
+    margin:3em 0;
+}
+article img {
+    width:100%;
+}

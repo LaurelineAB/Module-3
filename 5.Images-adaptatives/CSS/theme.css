@@ -1,0 +1,6 @@
+.descripteur-w, .sizes {
+    margin-top:2em;
+}
+.descripteur-w img, .sizes img, picture img {
+    width:100%;
+}

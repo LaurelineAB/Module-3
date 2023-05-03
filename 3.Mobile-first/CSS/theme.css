@@ -1,0 +1,50 @@
+/***GENERAL***/
+main {
+    padding:0;
+    max-width:100%;
+    margin:0;
+}
+
+/***HEADER***/
+main header {
+    background-color: #C0C0C0;
+    text-transform:uppercase;
+    color:black;
+    font-weight:bold;
+    text-align:left;
+}
+
+/***FOOTER***/
+main footer {
+    background-color: #C0C0C0;
+    text-transform:uppercase;
+    color:black;
+    font-weight:bold;
+    text-align:left;
+}
+
+
+/***POUR TABLETTE***/
+@media screen and (max-width:1200px) and (min-width:780px) {
+    section {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    article {
+        width:50%;
+        box-sizing:border-box;
+    }
+}
+
+
+/***POUR DESKTOP***/
+@media screen and (min-width:1200px) {
+    section {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    article {
+        width:25%;
+        box-sizing:border-box;
+    }
+}

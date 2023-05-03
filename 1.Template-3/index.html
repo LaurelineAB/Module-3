@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Template module 3</title>
+        <link rel="stylesheet" href="CSS/common-v3.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Template module 3</h1>
+            <p>Le template des démos du module 3 (sémantique + feuille de style commune en version 3)</p>
+        </header>
+        <main>
+            <h1>Un exemple de titre h1</h1>
+            <h2>Un exemple de titre h2</h2>
+            <h3>Un exemple de titre h3</h3>
+            <p>Un exemple de texte dans un paragraphe contenant un <a href="#">Lien vide</a> 
+            (dont l'adresse est simplement l'ancre vide #)</p>
+            <div class="parent">
+                Un exemple de div ayant la classe "parent"
+            </div>
+            <p>Un autre paragraphe.</p>
+            <article>Un exemple d'article</article>
+            <p>Un autre paragraphe</p>
+            <div class="card">Un exemple de div avec la classe .card</div>
+            <p>Un autre paragraphe</p>
+            <div class="cards">
+                <div>Un exemple de div avec la classe .cards</div>
+                <div>...et contenant plusieurs div</div>
+            </div>
+            <p>Un autre paragraphe</p>
+            <div class="cards gutter">
+                <div>Un exemple de div avec la classe .cards et la classe .gutter</div>
+                <div>...et contenant plusieurs div</div>
+            </div>
+            <p>Un autre paragraphe</p>
+            <pre class="code">Un élément &lt;pre> avec la classe .code</pre>
+            <p>Un autre paragraphe</p>
+            <!--table>(thead>tr>th{Entête $}*4)+(tbody>(tr>td{Case $}*4)+(tr>td{Case $@5}*4))+(tfoot>tr>td{Pied $}*4)-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entête 1</th>
+                        <th>Entête 2</th>
+                        <th>Entête 3</th>
+                        <th>Entête 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Case 1</td>
+                        <td>Case 2</td>
+                        <td>Case 3</td>
+                        <td>Case 4</td>
+                    </tr>
+                    <tr>
+                        <td>Case 5</td>
+                        <td>Case 6</td>
+                        <td>Case 7</td>
+                        <td>Case 8</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Pied 1</td>
+                        <td>Pied 2</td>
+                        <td>Pied 3</td>
+                        <td>Pied 4</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>Un autre paragraphe</p>
+            <form action="" method="POST">
+                <fieldset class="coordonnees">
+                    <legend>Mes coordonnées</legend>
+                    <field>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </field>
+                    <field>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom">
+                    </field>
+                    <field>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </field>
+                </fieldset>
+                <fieldset class="demande">
+                    <legend>Ma demande</legend>
+                    <select id="objet" name="objet">
+                        <option value="0">Choisir l'objet de ma demande...</option>
+                        <option value="q">Question d'ordre général</option>
+                        <option value="g">Déclarer un bug gênant</option>
+                        <option value="b">Déclarer un bug bloquant</option>
+                    </select>
+                    <textarea id="demande" name="demande"></textarea>
+                </fieldset>
+                <fieldset class="bouton">
+                    <button type="submit" value="valider">Valider le formulaire</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>
