@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Grid Layout (propriétés)</title>
+        <link rel="stylesheet" href="CSS/common-v3.css" type="text/css" />
+        <link rel="stylesheet" href="CSS/theme.css">
+    </head>
+    <body>
+        <header>
+            <h1>Grid Layout (propriétés)</h1>
+            <p>Les principales propriétés de CSS Grid layout</p>
+        </header>
+        <main>
+            <h2>Simple</h2>
+            <section class="parent cards grid-simple">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+            </section>
+            <h2>Simple alt</h2>
+            <section class="parent cards grid-simple-alt">
+                <article class="simple-1">Item 1</article>
+                <article class="simple-2">Item 2</article>
+                <article class="simple-3">Item 3</article>
+                <article class="simple-4">Item 4</article>
+            </section>
+            <h2>Repeat avec 12 cases</h2>
+            <section class="parent cards grid-repeat">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Gap</h2>
+            <section class="parent cards grid-repeat grid-gap">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Gap alt</h2>
+            <section class="parent cards grid-repeat grid-gap-alt">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify-items: center</h2>
+            <section class="parent cards grid-repeat grid-justify-items-center">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify items: start</h2>
+            <section class="parent cards grid-repeat grid-justify-items-start">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify items: end</h2>
+            <section class="parent cards grid-repeat grid-justify-items-end">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align items: center</h2>
+            <section class="parent cards grid-repeat grid-align-items-center">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align items: start</h2>
+            <section class="parent cards grid-repeat grid-align-items-start">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align items: end</h2>
+            <section class="parent cards grid-repeat grid-align-items-end">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align items: stretch</h2>
+            <section class="parent cards grid-repeat grid-align-items-stretch">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify content: center</h2>
+            <section class="parent cards grid-repeat grid-justify-content-center">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify content: start</h2>
+            <section class="parent cards grid-repeat grid-justify-content-start">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify content: end</h2>
+            <section class="parent cards grid-repeat grid-justify-content-end">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify content: between</h2>
+            <section class="parent cards grid-repeat grid-justify-content-between">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Justify content: around</h2>
+            <section class="parent cards grid-repeat grid-justify-content-around">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align content: center</h2>
+            <section class="parent cards grid-repeat grid-align-content-center">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align content: start</h2>
+            <section class="parent cards grid-repeat grid-align-content-start">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align content: end</h2>
+            <section class="parent cards grid-repeat grid-align-content-end">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align content: space-between</h2>
+            <section class="parent cards grid-repeat grid-align-content-space-between">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align content: space-around</h2>
+            <section class="parent cards grid-repeat grid-align-content-space-around">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Align content: space-evenly</h2>
+            <section class="parent cards grid-repeat grid-align-content-space-evenly">
+                <article>Item 1</article>
+                <article>Item 2</article>
+                <article>Item 3</article>
+                <article>Item 4</article>
+                <article>Item 5</article>
+                <article>Item 6</article>
+                <article>Item 7</article>
+                <article>Item 8</article>
+                <article>Item 9</article>
+                <article>Item 10</article>
+                <article>Item 11</article>
+                <article>Item 12</article>
+            </section>
+            <h2>Grid items</h2>
+            <section class="cards parent grid-items">
+                <article class="grid-items-header">Header</article>
+                <article class="grid-items-sidebar">Sidebar</article>
+                <article class="grid-items-footer">Footer</article>
+                <article class="grid-items-main">
+                    <h2>Main article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dignissimos nostrum pariatur voluptatibus nihil! Molestias, sapiente porro ipsam eius praesentium!</p>
+                    <p>Optio, veritatis, architecto nisi aut tempore magnam distinctio. Illum, autem, ab provident facere hic molestias minus commodi veritatis accusantium saepe!</p>
+                </article>
+            </section>
+            <h2>Grid items alt</h2>
+            <section class="cards parent grid-items-alt">
+                <article class="grid-items-alt-header">Header</article>
+                <article class="grid-items-alt-sidebar">Sidebar</article>
+                <article class="grid-items-alt-footer">Footer</article>
+                <article class="grid-items-alt-main">
+                    <h2>Main article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, at nihil animi quam minus corporis quibusdam non magnam mollitia deleniti!</p>
+                    <p>Voluptatibus, consequatur autem distinctio incidunt sed? Distinctio, tenetur hic eius totam dicta temporibus dignissimos consectetur qui ad! Tempore, officia, perferendis!</p>
+                </article>
+            </section>
+            <h2>Grid areas</h2>
+            <section class="cards parent grid-areas">
+                <article class="grid-areas-header">Header</article>
+                <article class="grid-areas-sidebar">Sidebar</article>
+                <article class="grid-areas-footer">Footer</article>
+                <article class="grid-areas-main">
+                    <h2>Main article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptate repellendus mollitia rem odio facilis corrupti laboriosam veniam sed quaerat.</p>
+                    <p>Dolores, vel nihil possimus repellat porro labore quibusdam quis voluptate quidem voluptatum ullam explicabo doloribus eligendi ut eos. Veniam, ea.</p>
+                </article>
+            </section>
+            <h2>Grid areas alt</h2>
+            <section class="cards parent grid-areas-alt">
+                <article class="grid-areas-alt-header">Header</article>
+                <article class="grid-areas-alt-sidebar">Sidebar</article>
+                <article class="grid-areas-alt-footer">Footer</article>
+                <article class="grid-areas-alt-main">
+                    <h2>Main article</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, voluptate repellendus mollitia rem odio facilis corrupti laboriosam veniam sed quaerat.</p>
+                    <p>Dolores, vel nihil possimus repellat porro labore quibusdam quis voluptate quidem voluptatum ullam explicabo doloribus eligendi ut eos. Veniam, ea.</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p><a href="www.3wa.fr"><img src="3wa-logo.png" alt="Propriété de la 3W Academy"></a></p>
+            <p>Ce matériel pédagogique est la propriété de la <a href="www.3wa.fr">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+        </footer>
+    </body>
+</html>
+<!--(h2+section.parent.cards.grid>(article{Item $})*12)*23+(h2{Grid}+section>(article*3+article>(h2+(p>lorem20)*2)))*4-->

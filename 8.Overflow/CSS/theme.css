@@ -1,0 +1,39 @@
+/***GENERAL***/
+main p {
+    width:500px;
+    box-sizing:border-box;
+}
+
+
+/***OVERFLOW***/
+.overflow-visible {
+    overflow:visible;
+    height:120px;
+}
+.overflow-hidden {
+    overflow:hidden;
+    height:120px;
+}
+.overflow-scroll {
+    overflow:scroll;
+    height:120px;
+}
+.overflow-auto {
+    overflow:auto;
+    height:120px;
+}
+
+
+/***TEXT OVERFLOW***/
+.text-overflow-ellipsis {
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    width:240px;
+}
+.text-overflow {
+    overflow: ;
+    overflow:hidden;
+    white-space:nowrap;
+    width:240px;
+}

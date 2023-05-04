@@ -60,7 +60,7 @@
     "head head head head head head"
     "nav main main main main aside"
     "foot foot foot foot foot foot";
-    grid-template-columns:repeat(6,1fr);
+    grid-template-columns:repeat(6,1fr);/*ou 20% auto 20%*/
     grid-gap:1em;
     max-width:90%;
     margin:0 auto;

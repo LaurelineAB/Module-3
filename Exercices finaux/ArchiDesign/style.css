@@ -1,0 +1,208 @@
+/***GENERAL***/
+html {
+    font-size:62.5%;
+}
+body {
+    padding:0;
+    margin:0;
+    font-size:1.8rem;
+    font-family:Nunito, sans-serif;
+    background-color: #f9f9f9;
+    color:#414141;
+}
+.container {
+    max-width:1500px;
+    width:80%;
+    margin:0 auto;
+}
+
+
+/***TITRES***/
+h1 {
+    text-transform:uppercase;
+    color:white;
+    background-color: #CB8606;
+    font-size:3rem;
+    font-family:Fjalla One;
+    text-align:center;
+    display:block;
+    padding:0.5em;
+    margin:1em auto;
+}
+h2 {
+    font-size:2.5rem;
+    font-family:Fjalla One;
+    color: #00748D;
+    text-align:center;
+    /*margin:0;*/
+}
+h2::before {
+    content:"- ";
+    font-size:2.5rem;
+    font-family:Fjalla One;
+    color: #CB8606;
+}
+h2::after {
+    content:" -";
+    font-size:2.5rem;
+    font-family:Fjalla One;
+    color: #CB8606;
+}
+h3 {
+    font-family:Fjalla One;
+    font-size:2rem;
+    text-align:center;
+}
+
+/***HEADER***/
+header {
+    background-color: #00748D;
+    color:white;
+    background-image: url(images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    font-family:Fjalla One;
+    padding: 1em;
+    /*display:flex;*/
+}
+.header {
+    display:flex;
+    justify-content:space-between;
+}
+.titres {
+    display:flex;
+    font-size:2rem;
+    align-items:baseline;
+    margin:auto 0;
+}
+.titres p {
+    padding:0 0.5em;
+}
+ul {
+    display:flex;
+    padding:0;
+    font-size:2rem;
+}
+li {
+    list-style:none;
+}
+li a {
+    color:white;
+    text-decoration:none;
+    padding:0.5em;
+    margin:1em;
+}
+li a:hover {
+    color:#00748D;
+    background-color: #fff;
+}
+
+/***CONCEPTION***/
+.conception {
+    background-image: url(images/bg-header.jpg);
+    /*-webkit-background-size: cover;*/
+    background-size: cover;
+    background-position: center;
+    height:25em;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    /*text-align:center;*/
+}
+.conception p {
+    background-color: #fff;
+    color:#00748D;
+    font-size:2rem;
+    font-weight:bold;
+    text-align:center;
+    padding:0.5em 1em;
+    margin:1em auto;
+}
+
+
+/***PRESTATIONS***/
+.prestations {
+    padding:1em 2em;
+}
+.articles {
+    display:flex;
+    padding:1em 0;
+}
+.prestations article {
+    padding:1em;
+    text-align:center;
+}
+.prestations i {
+    color:white;
+    background-color: #CB8606;
+    padding:0.5em;
+    font-size:2.5rem;
+}
+.more {
+    background-color: #00748D;
+    color:white;
+    font-weight:bold;
+    padding:1em 4em;
+    border:none;
+}
+
+
+/***PARTENAIRES***/
+.partenaires {
+    padding:1em 2em;
+}
+.images {
+    display:flex;
+    justify-content:space-between;
+    padding:1em 0;
+}
+.images img {
+    border:2px solid #00748D;
+    width:20%;
+}
+
+
+/***FOOTER BLEU***/
+.footer-bleu {
+    background-color: #00748D;
+    color:white;
+    background-image: url(images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    font-family:Fjalla One;
+    padding: 1em;
+    /*display:flex;*/
+}
+.bleu {
+    display:flex;
+    justify-content:space-between;
+}
+.titres {
+    display:flex;
+    font-size:2rem;
+    align-items:baseline;
+    margin:auto 0;
+}
+.titres p {
+    padding:0 0.5em;
+}
+.bleu i {
+    font-size:2.5rem;
+    padding:0.3em;
+}
+
+/***FOOTER 3WA***/
+.footer-3wa {
+    background-color: #444;
+    text-align: center;
+    color:white;
+    padding:1em;
+}
+
+.footer-3wa img {
+    width:5%;
+}
+.footer-3wa a {
+    text-decoration:none;
+    color:white;
+}
