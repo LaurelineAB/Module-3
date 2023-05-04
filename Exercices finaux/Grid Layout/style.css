@@ -1,0 +1,101 @@
+/***RESET***/
+html {
+    font-size:62.5%;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: black;
+    font-size:1.6rem;
+    color:white;
+    font-family:sans-serif;
+}
+
+
+/***GRID***/
+.grid {
+    max-width:80vw;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(10,10%);
+    grid-template-rows:repeat(10,10vh);
+    grid-gap:4px;
+    /*margin-bottom:3em;*/
+    height:100vh;
+}
+
+/***PHOTOS***/
+img {
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+.plaine {
+    grid-area:4 / 1 / 6 / 2;
+    /*background-image: url("images/plaine.jpg");
+    background-position: center;
+    background-size: cover;*/
+}
+.canyon {
+    grid-area: 3 / 2 / 7 / 6 ;
+}
+.plage {
+    grid-area: 7 / 4 / 9 / 6;
+}
+.crique {
+    grid-area: 1 / 5 / 3 / 6;
+}
+.montagne {
+    grid-area: 4 / 6 / 6 / 8;
+}
+.champ {
+    grid-area: 8 / 6 / 10 / 7;
+}
+.feuille {
+    grid-area: 2 / 7 / 4 / 8;
+}
+.herbe {
+    grid-area: 6 / 7 / 7 / 9;
+}
+.nuages {
+    grid-area: 7 / 7 / 9 / 8;
+}
+.foret {
+    grid-area: 3 / 8 / 5 / 9;
+}
+.nuit {
+    grid-area: 5 / 8 / 6 / 10;
+}
+
+
+/***AUTRES***/
+.gris-333 {
+    grid-area: 2 / 3 / 3 / 5;
+    background-color: #333;
+}
+.gris-666 {
+    grid-area: 6 / 6 / 8 / 7;
+    background-color: #666;
+}
+.gris-999 {
+    grid-area: 7 / 3 / 8 / 4;
+    background-color: #999;
+}
+h1 {
+    grid-area : 2 / 6 / 4 / 7;
+    font-size:3em;
+    margin:0;
+    vertical-align:bottom;
+    z-index:2;
+    display:flex;
+    align-items:flex-end;
+    line-height:1em;
+}
+.infos {
+    grid-area: 7 / 8 / 8 / 10;
+    margin:1em 0;
+}
+.infos p {
+    margin:0;
+}

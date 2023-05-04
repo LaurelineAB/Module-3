@@ -4,6 +4,7 @@
     grid-template-columns:4fr 1fr 1fr;
     grid-template-rows:repeat(4,auto);
     grid-gap:1em;
+    color:#333;
 }
 
 
@@ -15,6 +16,7 @@
     color:black;
     text-align:left;
     font-weight:bold;
+    padding:0.5em;
 }
 
 
@@ -22,5 +24,97 @@
 .article1 {
     grid-column:1 / 2;
     grid-row:2 / 4;
-    color:#333;
+    /*color:#333;*/
+}
+.article2 {
+    background-color: #fc3;
+    /*grid-column:2 / 3;
+    grid-row:2 / 3;*/
+}
+.article3 {
+    background-color: #fa3;
+}
+.article4 {
+    background-color: #f83;
+    grid-column:2 / 4;
+}
+
+
+/***FOOTER***/
+.grid footer {
+    background-color: #bbb;
+    grid-column:1 / 4;
+    color:#666;
+    
+    text-align:left;
+    padding:2em;
+}
+
+
+/*----GRID AREAS----*/
+
+/***GRID***/
+.grid-2{
+    display:grid;
+    grid-template-areas :
+    "head head head head head head"
+    "nav main main main main aside"
+    "foot foot foot foot foot foot";
+    grid-template-columns:repeat(6,1fr);
+    grid-gap:1em;
+    max-width:90%;
+    margin:0 auto;
+    padding:2em;
+}
+
+/***CONTENU***/
+.grid-2 header {
+    grid-area:head;
+    background-color: #ddd;
+    color:black;
+    text-align:left;
+    padding:1em;
+}
+.grid-2 header h2 {
+    margin:0;
+}
+.grid-2 nav {
+    grid-area:nav;
+    background-color: #fc3;
+    padding:1em;
+}
+nav ul {
+    list-style:none;
+    padding:0;
+}
+li {
+    color:red;
+    border:1px solid red;
+    padding:1em;
+    margin:1em 0;
+}
+.grid-2 main {
+    grid-area:main;
+    background-color: #fff;
+}
+.grid-2 aside {
+    grid-area:aside;
+    background-color: #fa3;
+    padding:1em;
+}
+aside h2 {
+    margin-bottom:0;
+}
+i {
+    color:red;
+    font-size:2em;
+}
+.grid-2 footer {
+    grid-area:foot;
+    background-color: #bbb;
+    text-align:left;
+    padding:1em;
+}
+.grid-2 footer h2 {
+    margin:0;
 }
