@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ArchiDesign</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="CSS/style-home.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
                 <a href="home.html"><img src="images/logo.png" alt=""></a>
                 <p>Intérieurs à la carte</p>
             </div>
-            <nav>
+            <nav class="menu">
                 <ul>
                     <li><a href="home.html">Accueil</a></li>
                     <li><a href="#">A propos</a></li>
@@ -39,8 +39,8 @@
         <!--section.prestations>(h2+(article>(i+h3+p+button.more))*4)-->
         <section class="prestations">
             <h2>Nos prestations</h2>
-            <section class="articles">
-                <article>
+            <!--<section class="articles">-->
+                <article class="cahier">
                     <i class="fa-solid fa-book"></i>
                     <h3>Cahier des charges</h3>
                     <p>
@@ -48,7 +48,7 @@
                     </p>
                     <button class="more">En savoir plus</button>
                 </article>
-                <article>
+                <article class="shopping">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <h3>Shopping personnalisé</h3>
                     <p>
@@ -56,7 +56,7 @@
                     </p>
                     <button class="more">En savoir plus</button>
                 </article>
-                <article>
+                <article class="chantier">
                     <i class="fa-sharp fa-solid fa-check"></i>
                     <h3>Suivi de chantier</h3>
                     <p>
@@ -64,7 +64,7 @@
                     </p>
                     <button class="more">En savoir plus</button>
                 </article>
-                <article>
+                <article class="key">
                     <i class="fa-solid fa-key"></i>
                     <h3>Clé en main</h3>
                     <p>
@@ -72,28 +72,28 @@
                     </p>
                     <button class="more">En savoir plus</button>
                 </article>
-            </section>
+            <!--</section>-->
         </section>
         <!--section.prestataires>img*4-->
         <section class="partenaires">
             <h2>Nos prestataires</h2>
-            <sections class="images">
-                <img src="images/partner1.png" alt="Oslo Collection">
-                <img src="images/partner2.png" alt="XOOX">
-                <img src="images/partner3.png" alt="Best of Norway">
-                <img src="images/partner4.png" alt="Teresa Home">
-            </sections>
+            <!--<section class="images">-->
+                <a href="#"><img src="images/partner1.png" alt="Oslo Collection" class="oslo"></a>
+                <a href="#"><img src="images/partner2.png" alt="XOOX" class="xoox"></a>
+                <a href="#"><img src="images/partner3.png" alt="Best of Norway" class="norway"></a>
+                <a href="#"><img src="images/partner4.png" alt="Teresa Home" class="teresa"></a>
+            <!--</section>-->
         </section>
     </main>
     <footer>
         <!--(section>img+p)*2-->
         <section class="footer-bleu">
             <div class="container bleu">
-                <div class="titres">
+                <div class="footer-titres">
                     <img src="images/logo.png" alt="ArchiDesign">
                     <p>Design à la carte</p>
                 </div>
-                <p>
+                <p class="socials">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-youtube"></i>
