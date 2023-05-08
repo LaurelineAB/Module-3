@@ -1,0 +1,321 @@
+/***GENERAL***/
+html {
+    font-size:62.5%;
+}
+body {
+    margin:0;
+    padding:0;
+    font-size:1.6rem;
+    font-family:Source Sans Pro, sans-serif;
+    color:#333;
+    background-color: #fff;
+    box-sizing:border-box;
+}
+
+
+/***TITRES***/
+h1 {
+    font-family:Mali, cursive;
+    font-size:3rem;
+    color:#db0059;
+    text-align:center;
+    background-color: rgba(255,255,255,0.7);
+    padding:0.5em;
+    display:block;
+    width:400px;
+    margin:0 auto;
+}
+h2 {
+    font-family:Mali, cursive;
+    font-size:2.8rem;
+    text-align:center;
+    margin:0.5em 0 1em;
+}
+h3 {
+    font-family:Mali, cursive;
+    font-size:2rem;
+}
+
+/***HEADER***/
+header {
+    text-align:center;
+}
+ul {
+    font-family:Mali, cursive;
+    font-size:2.4rem;
+    list-style:none;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul li {
+    /*padding:0.5em;*/
+    box-sizing:border-box;
+    
+}
+ul a {
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+    display:inline-block;
+    padding:0.5em;
+    border:2px solid white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+ul a:hover {
+    background-color: #ededed;
+    border-left:2px solid #037d9d;
+    border-bottom:2px solid #037d9d;
+}
+
+
+/***INTRO***/
+.intro {
+    background-image: url(../images/banner1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding:5em 0;
+}
+
+
+/***CITATION***/
+blockquote {
+    text-align:center;
+    background-color: #ededed;
+    border-left:2px solid #037d9d;
+    border-bottom:2px solid #037d9d;
+    padding:1.5em 1em;
+    width:70%;
+    margin:2em auto;
+}
+blockquote p {
+    font-family:Mali, cursive;
+    font-weight:bold;
+    font-size:2.5rem;
+    font-style:italic;
+    margin:0.5em 0;
+}
+blockquote p::before {
+    content:'" ';
+}
+blockquote p::after {
+    content:' "';
+}
+cite {
+    font-size:2rem;
+    font-style:normal;
+}
+
+
+/***ARTICLES***/
+.actu, .interviews {
+    padding:1em;
+    /*display:flex;
+    flex-direction:column;*/
+}
+.actu i {
+    font-size:4rem;
+    color:#037d9d;
+    text-align:center;
+    display:block;
+    /*margin:0 auto;*/
+}
+.actu h3 {
+    color:#037d9d;
+    margin:0.5em 0 0 0;
+}
+article {
+    background-color: #ededed;
+    padding:1em;
+    text-align:justify;
+    margin:2em 1em;
+    position:relative;
+    padding-bottom:3.6em;
+    /*display:flex;
+    flex-direction:column;*/
+}
+.date {
+    font-size:1.4rem;
+    font-style:italic;
+    margin:0 0 1em 0;
+}
+article img {
+    width:100%;
+}
+.more {
+    color:white;
+    background-color: #1d1e3d;
+    border:1px solid #1d1e3d;
+    padding:1em;
+    display:block;
+    position:absolute;
+    right:1em;
+    bottom:1em;
+    /*margin:0 0 0 auto;*/
+    /*display:flex;*/
+    /*justify-content:flex-end;*/
+}
+.more:hover {
+    background-color: #fff;
+    color:#1d1e3d;
+    border-left:1px solid #1d1e3d;
+    border-bottom:1px solid #1d1e3d;
+    border-right:1px solid white;
+    border-top:1px solid white;
+}
+
+
+/***INTERVIEW***/
+.interviews i {
+    font-size:4rem;
+    color:#db0059;
+    text-align:center;
+    display:block;
+    /*margin:0 auto;*/
+}
+.interviews h3 {
+    color:#db0059;
+    margin:0.5em 0 0 0;
+}
+
+
+/***FOOTER***/
+footer {
+    background-color: #db0059;
+    color:white;
+    padding:1em;
+    text-align:center;
+}
+footer h3 {
+    margin:1em 0 0.5em;
+}
+footer form {
+    border-left:2px solid white;
+    border-bottom:2px solid white;
+    padding:1em;
+    text-align:justify;
+    margin:2em 0;
+}
+footer label, footer input, footer button {
+    display:block;
+}
+footer input {
+    background-color: rgba(255,255,255,0.8);
+    color:#E85798;
+    border:none;
+    padding:1em;
+    width:70%;
+    margin:1.5em 0;
+}
+::placeholder {
+    color:#E85798;
+}
+.submit {
+    background-color: #fff;
+    border:1px solid #fff;
+    color:#db0059;
+    padding:1em;
+    margin:1.5em 0;
+}
+.submit:hover {
+    background-color: rgba(255,255,255,0.6);
+    color:white;
+    border-left:1px solid white;
+    border-bottom:1px solid white;
+    border-right:1px solid #db0059 /*rgba(255,255,255,0.3)*/;
+    border-top:1px solid #db0059 /*rgba(255,255,255,0.3)*/;
+}
+footer p {
+    margin:0;
+}
+.fa-brands {
+    font-size:3rem;
+    padding:0.5em;
+    border:2px solid #db0059;
+}
+.fa-brands:hover {
+    background-color: #E85798;
+    color:white;
+    border-left:2px solid white;
+    border-bottom:2px solid white;
+    border-right:2px solid #db0059 /*rgba(255,255,255,0.3)*/;
+    border-top:2px solid #db0059 /*rgba(255,255,255,0.3)*/;
+}
+
+
+/*----TABLETTE----*/
+@media screen and (min-width:780px) and (max-width:980px) {
+    ul {
+        display:flex;
+        justify-content:space-around;
+    }
+}
+
+
+/*----DESKTOP---*/
+@media screen and (min-width:981px) {
+    
+    /***GENERAL***/
+    body {
+        background-color: #ededed;
+    }
+    .container {
+        background-color: #fff;
+        max-width:1100px;
+        width:80%;
+        margin:0 auto;
+        padding:1em;
+    }
+    
+    /***HEADER***/
+    header {
+        display:flex;
+        justify-content:space-between;
+    }
+    header nav {
+        display:flex;
+        align-items:center;
+    }
+    header ul {
+        display:flex;
+    }
+    blockquote {
+        margin-bottom:4em;
+    }
+    
+    /***ARTICLES***/
+    .actu, .interviews {
+        display:grid;
+        grid-template-columns:repeat(2,50%);
+        padding:0;
+        margin-top:2em;
+        /*grid-template-areas :
+        "picto picto"*/
+    }
+    .actu i, .interviews i {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    .actu h2, .interviews h2 {
+        grid-area: 2 / 1 / 3 / 3;
+        margin:0.5em;
+    }
+    .article-1 {
+        grid-area: 3 / 1 / 4 / 2;
+        margin:1em;
+    }
+    .article-2 {
+        grid-area: 3 / 2 / 4 / 3;
+        margin:1em;
+    }
+    
+    /***FOOTER***/
+    footer {
+        display:grid;
+        grid-template-columns:repeat(2,50%)
+    }
+}
